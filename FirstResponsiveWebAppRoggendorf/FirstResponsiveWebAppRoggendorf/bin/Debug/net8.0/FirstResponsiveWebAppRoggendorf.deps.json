@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FirstResponsiveWebAppRoggendorf/1.0.0": {
+        "runtime": {
+          "FirstResponsiveWebAppRoggendorf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstResponsiveWebAppRoggendorf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

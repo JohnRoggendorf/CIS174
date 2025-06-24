@@ -1,0 +1,38 @@
+﻿
+@model FirstResponsiveWebAppRoggendorf.Models.NameAgeModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Name and Age</h1>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="userName">Name:</label>
+            <input asp-for="userName" />
+        </div>
+        <div class="form-group">
+            <label asp-for="userDOB">Date of birth:</label>
+            <input asp-for="userDOB" />
+        </div>
+        <button type="submit">Calculate</button>
+        <a asp-action="Index">Clear</a>
+        <div>
+            <lable>Your name:</lable>
+            <input value="@ViewBag.userName" readonly />
+        </div>
+        <div>
+            <lable>Your age:</lable>
+            <input value="@ViewBag.userAge" readonly />
+        </div>
+    </form>
+</body>
+</html>
