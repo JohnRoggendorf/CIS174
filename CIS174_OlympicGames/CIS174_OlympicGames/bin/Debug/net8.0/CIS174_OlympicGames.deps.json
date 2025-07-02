@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CIS174_OlympicGames/1.0.0": {
+        "runtime": {
+          "CIS174_OlympicGames.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CIS174_OlympicGames/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

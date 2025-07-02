@@ -1,0 +1,40 @@
+﻿@model List<CIS174_OlympicGames.Models.CountrySportModel>
+@{
+    ViewData["Title"] = "Country Flags by Sport";
+    var games = new[] { "ALL", "Winter Olympics", "Summer Olympics", "Paralympics", "Youth Olympic Games" };
+    var categories = new[] { "ALL", "Indoor", "Outdoor" };
+}
+
+<div class="container">
+    <aside class="sidebar">
+        <form asp-action="Index" method="get">
+            <label for="game">Game:</label>
+            <select name="game" id="game">
+                @foreach (var g in games)
+                {
+                    <option value="@g" selected="@(ViewBag.Game == g ? "selected" : null)">@g</option>
+                }
+            </select>
+
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                @foreach (var cat in categories)
+                {
+                    <option value="@cat" selected="@(ViewBag.Category == cat ? "selected" : null)">@cat</option>
+                }
+            </select>
+
+            <button type="submit">Filter</button>
+        </form>
+    </aside>
+
+    <main class="flags">
+        @foreach (var item in Model)
+        {
+            <div class="flag-wrapper" title="@($"{item.Country} | {item.Game} | {item.Category}")">
+                <img src="@item.FlagPath" alt="@item.Country" class="flag-img"
+                     title="@($"{item.Country} | {item.Game} | {item.Sport} | {item.Category}")" />
+            </div>
+        }
+    </main>
+</div>
