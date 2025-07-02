@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CIS174_TestCoreApp/1.0.0": {
+        "runtime": {
+          "CIS174_TestCoreApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CIS174_TestCoreApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
