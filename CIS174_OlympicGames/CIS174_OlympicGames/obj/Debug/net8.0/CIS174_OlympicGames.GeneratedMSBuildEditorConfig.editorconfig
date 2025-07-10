@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/jrogg/source/repos/CIS174/CIS174_OlympicGames/CIS174_OlympicGames/Views/Favorites/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jrogg/source/repos/CIS174/CIS174_OlympicGames/CIS174_OlympicGames/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jrogg/source/repos/CIS174/CIS174_OlympicGames/CIS174_OlympicGames/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jrogg/source/repos/CIS174/CIS174_OlympicGames/CIS174_OlympicGames/Views/Sport/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jrogg/source/repos/CIS174/CIS174_OlympicGames/CIS174_OlympicGames/Views/Sport/Index.cshtml]

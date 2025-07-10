@@ -1,0 +1,17 @@
+﻿@model CountrySportModel
+@{
+    ViewData["Title"] = "Sport Details";
+}
+
+<div class="container">
+    <h2>@Model.Sport - @Model.Country</h2>
+    <img src="@Model.FlagPath" alt="@Model.Country flag" style="height:100px" />
+
+    <ul>
+        <li><strong>Game:</strong> @Model.Game</li>
+        <li><strong>Category:</strong> @Model.Category</li>
+    </ul>
+
+    <a asp-action="Index" class="btn">Return to Home Page</a>
+    <a asp-action="AddToFavorites" asp-route-id="@Model.Id" class="btn">Add to Favorites</a>
+</div>

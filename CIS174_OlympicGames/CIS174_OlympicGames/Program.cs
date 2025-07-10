@@ -8,6 +8,7 @@ namespace CIS174_OlympicGames
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession();
 
             var app = builder.Build();
 
@@ -23,7 +24,8 @@ namespace CIS174_OlympicGames
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
+            app.UseAuthorization();
             app.UseAuthorization();
 
             app.MapControllerRoute(

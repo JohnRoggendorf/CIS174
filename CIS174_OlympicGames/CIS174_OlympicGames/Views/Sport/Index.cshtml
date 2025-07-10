@@ -32,8 +32,10 @@
         @foreach (var item in Model)
         {
             <div class="flag-wrapper" title="@($"{item.Country} | {item.Game} | {item.Category}")">
-                <img src="@item.FlagPath" alt="@item.Country" class="flag-img"
-                     title="@($"{item.Country} | {item.Game} | {item.Sport} | {item.Category}")" />
+                <a asp-action="Details" asp-route-id="@item.Id">
+                    <img src="@item.FlagPath" alt="@item.Country" class="flag-img"
+                         title="@($"{item.Country} | {item.Game} | {item.Sport} | {item.Category}")" />
+                </a>
             </div>
         }
     </main>

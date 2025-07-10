@@ -2,6 +2,7 @@
 {
     public class CountrySportModel
     {
+        public int Id { get; set; }
         public string Country {  get; set; }
         public string Game {  get; set; }
         public string Sport { get; set; }
