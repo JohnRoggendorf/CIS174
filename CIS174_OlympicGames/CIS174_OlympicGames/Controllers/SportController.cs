@@ -34,22 +34,6 @@ namespace CIS174_OlympicGames.Controllers
             new CountrySportModel { Id = 24, Country = "Zimbabwe", Game = "Paralympics", Sport = "Canoe Sprint", Category = "Outdoor", FlagPath = "https://flagcdn.com/w80/zw.png" }
         };
 
-        public IActionResult Index(string game = "ALL", string category = "ALL")
-        {
-            ViewBag.Game = game;
-            ViewBag.Category = category;
-
-            var filtered = countries.AsEnumerable();
-
-            if (game != "ALL")
-                filtered = filtered.Where(c => c.Game == game);
-
-            if (category != "ALL")
-                filtered = filtered.Where(c => c.Category == category);
-
-            return View(filtered.OrderBy(c => c.Country).ToList());
-        }
-
         public IActionResult Details(int id)
         {
             var sport = countries.FirstOrDefault(c => c.Id == id);
@@ -70,6 +54,19 @@ namespace CIS174_OlympicGames.Controllers
             HttpContext.Session.SetString("favorites", JsonSerializer.Serialize(favoriteIds));
 
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Index(SportIndexViewModel vm)
+        {
+            var filtered = countries.AsEnumerable();
+
+            if (vm.Game != "ALL")
+                filtered = filtered.Where(c => c.Game == vm.Game);
+
+            if (vm.Category != "ALL")
+                filtered = filtered.Where(c => c.Category == vm.Category);
+            vm.FilteredSports = filtered.ToList();
+            return View(vm);
         }
 
         public static List<CountrySportModel> GetAll() => countries;

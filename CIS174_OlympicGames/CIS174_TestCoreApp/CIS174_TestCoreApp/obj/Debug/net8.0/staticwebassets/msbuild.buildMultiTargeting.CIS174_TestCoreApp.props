@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CIS174_TestCoreApp.props" />
+</Project>

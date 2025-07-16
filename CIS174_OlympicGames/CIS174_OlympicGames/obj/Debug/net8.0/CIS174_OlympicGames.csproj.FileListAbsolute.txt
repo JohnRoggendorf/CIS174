@@ -1,3 +1,11 @@
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.AssemblyInfoInputs.cache
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.AssemblyInfo.cs
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.csproj.CoreCompileInputs.cache
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.RazorAssemblyInfo.cache
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.RazorAssemblyInfo.cs
+C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.sourcelink.json
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\Debug\net8.0\appsettings.json
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\Debug\net8.0\CIS174_OlympicGames.staticwebassets.runtime.json
@@ -7,14 +15,6 @@ C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\D
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\Debug\net8.0\CIS174_OlympicGames.runtimeconfig.json
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\Debug\net8.0\CIS174_OlympicGames.dll
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\bin\Debug\net8.0\CIS174_OlympicGames.pdb
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.AssemblyInfoInputs.cache
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.AssemblyInfo.cs
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.csproj.CoreCompileInputs.cache
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.RazorAssemblyInfo.cache
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.RazorAssemblyInfo.cs
-C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\CIS174_OlympicGames.sourcelink.json
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\scopedcss\bundle\CIS174_OlympicGames.styles.css
 C:\Users\jrogg\source\repos\CIS174\CIS174_OlympicGames\CIS174_OlympicGames\obj\Debug\net8.0\scopedcss\projectbundle\CIS174_OlympicGames.bundle.scp.css

@@ -1,4 +1,4 @@
-﻿@model List<CIS174_OlympicGames.Models.CountrySportModel>
+﻿@model SportIndexViewModel
 @{
     ViewData["Title"] = "Country Flags by Sport";
     var games = new[] { "ALL", "Winter Olympics", "Summer Olympics", "Paralympics", "Youth Olympic Games" };
@@ -9,19 +9,12 @@
     <aside class="sidebar">
         <form asp-action="Index" method="get">
             <label for="game">Game:</label>
-            <select name="game" id="game">
-                @foreach (var g in games)
-                {
-                    <option value="@g" selected="@(ViewBag.Game == g ? "selected" : null)">@g</option>
-                }
+            <select asp-for="Game" asp-items="new SelectList(games)">
+                <option value="ALL">ALL</option>
             </select>
 
-            <label for="category">Category:</label>
-            <select name="category" id="category">
-                @foreach (var cat in categories)
-                {
-                    <option value="@cat" selected="@(ViewBag.Category == cat ? "selected" : null)">@cat</option>
-                }
+            <select asp-for="Category" asp-items="new SelectList(categories)">
+                <option value="ALL">ALL</option>
             </select>
 
             <button type="submit">Filter</button>
@@ -29,7 +22,7 @@
     </aside>
 
     <main class="flags">
-        @foreach (var item in Model)
+        @foreach (var item in Model.FilteredSports)
         {
             <div class="flag-wrapper" title="@($"{item.Country} | {item.Game} | {item.Category}")">
                 <a asp-action="Details" asp-route-id="@item.Id">

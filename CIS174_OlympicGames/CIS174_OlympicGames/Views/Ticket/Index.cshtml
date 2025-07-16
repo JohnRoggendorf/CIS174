@@ -1,0 +1,29 @@
+﻿@model List<TicketModel>
+
+<h2>Tickets</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Sprint Number</th>
+            <th>Point Value</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in Model)
+        {
+            <tr>
+                <td>@ticket.Name</td>
+                <td>@ticket.Description</td>
+                <td>@ticket.SprintNumber</td>
+                <td>@ticket.PointValue</td>
+                <td>@ticket.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Create New Ticket</a>

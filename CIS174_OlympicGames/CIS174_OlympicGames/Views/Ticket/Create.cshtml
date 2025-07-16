@@ -1,0 +1,32 @@
+﻿@model TicketModel
+
+<h2>Create Ticket</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <div>
+        <label asp-for="SprintNumber"></label>
+        <input asp-for="SprintNumber" type="number" />
+    </div>
+    <div>
+        <label asp-for="PointValue"></label>
+        <input asp-for="PointValue" type="number" />
+    </div>
+    <div>
+        <label asp-for="Status"></label>
+        <select asp-for="Status">
+            <option value="to do">To Do</option>
+            <option value="in progress">In Progress</option>
+            <option value="qa">Quality Assurance (QA)</option>
+            <option value="done">Done</option>
+        </select>
+    </div>
+    <button type="submit">Add Ticket</button>
+</form>

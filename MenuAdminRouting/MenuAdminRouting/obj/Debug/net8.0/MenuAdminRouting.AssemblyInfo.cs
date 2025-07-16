@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MenuAdminRouting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ef4590284d61b10c711e5f0515b2df128e31d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512e41ab9810c33b7f7f5815565d0afe169c0433")]
 [assembly: System.Reflection.AssemblyProductAttribute("MenuAdminRouting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MenuAdminRouting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
