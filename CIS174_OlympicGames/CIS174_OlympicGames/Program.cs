@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using CIS174_OlympicGames.Data;
+
 namespace CIS174_OlympicGames
 {
     public class Program
@@ -7,6 +10,7 @@ namespace CIS174_OlympicGames
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<TicketDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddControllersWithViews();
             builder.Services.AddSession();
 

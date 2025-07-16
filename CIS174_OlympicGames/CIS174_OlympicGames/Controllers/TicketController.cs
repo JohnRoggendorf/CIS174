@@ -1,15 +1,26 @@
 ﻿using System.Net.Sockets;
 using Microsoft.AspNetCore.Mvc;
 using CIS174_OlympicGames.Models;
+using CIS174_OlympicGames.Data;
 
 namespace CIS174_OlympicGames.Controllers
 {
     public class TicketController : Controller
     {
+
+        private readonly TicketDbContext _context;
+
+
+        public TicketController(TicketDbContext context)
+        {
+            _context = context;
+        }
+
         private static List<TicketModel> tickets = new List<TicketModel>();
 
         public IActionResult Index()
         {
+            var tickets = _context.Tickets.ToList();
             return View(tickets);
         }
 
@@ -26,9 +37,9 @@ namespace CIS174_OlympicGames.Controllers
             {
                 return View(ticket);
             }
-            
-            ticket.Id = tickets.Count + 1;
-            tickets.Add(ticket);
+
+            _context.Tickets.Add(ticket);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
     }
