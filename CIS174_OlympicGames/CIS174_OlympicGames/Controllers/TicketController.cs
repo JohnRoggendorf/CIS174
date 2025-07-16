@@ -22,6 +22,11 @@ namespace CIS174_OlympicGames.Controllers
         [HttpPost]
         public IActionResult Create(TicketModel ticket)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(ticket);
+            }
+            
             ticket.Id = tickets.Count + 1;
             tickets.Add(ticket);
             return RedirectToAction("Index");
