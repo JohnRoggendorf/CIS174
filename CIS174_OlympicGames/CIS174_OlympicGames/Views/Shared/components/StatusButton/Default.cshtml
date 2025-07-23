@@ -1,0 +1,23 @@
+﻿@model string
+
+@{
+    var statusClass = Model switch
+    {
+        "to do" => "btn btn-secondary",
+        "in progress" => "btn btn-info",
+        "qa" => "btn btn-warning",
+        "done" => "btn btn-success",
+        _ => "btn btn-light"
+    };
+
+    string DisplayStatus = Model switch
+    {
+        "to do" => "To Do",
+        "in progress" => "In Progress",
+        "qa" => "Quality Assurance (QA)",
+        "done" => "Done",
+        _ => Model
+    };
+}
+
+<button class="@statusClass" disabled>@DisplayStatus</button>
