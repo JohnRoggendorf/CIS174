@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CIS174_OlympicGames.frmlnuvfnx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hTowL9N6jMn9PHvzqD0bJeyXeBMaoc\u002BjcviDcpEM4Zo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hTowL9N6jMn9PHvzqD0bJeyXeBMaoc\u002BjcviDcpEM4Zo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Jul 2025 01:41:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hTowL9N6jMn9PHvzqD0bJeyXeBMaoc\u002BjcviDcpEM4Zo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Jul 2025 00:58:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CIS174_OlympicGames/CIS174_OlympicGames.frmlnuvfnx.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CIS174_OlympicGames.frmlnuvfnx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"frmlnuvfnx"},{"Name":"integrity","Value":"sha256-hTowL9N6jMn9PHvzqD0bJeyXeBMaoc\u002BjcviDcpEM4Zo="},{"Name":"label","Value":"_content/CIS174_OlympicGames/CIS174_OlympicGames.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hTowL9N6jMn9PHvzqD0bJeyXeBMaoc\u002BjcviDcpEM4Zo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Jul 2025 01:41:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hTowL9N6jMn9PHvzqD0bJeyXeBMaoc\u002BjcviDcpEM4Zo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Jul 2025 00:58:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CIS174_OlympicGames/css/site.b2ofzcznlk.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

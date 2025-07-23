@@ -2,25 +2,24 @@
 using Microsoft.AspNetCore.Mvc;
 using CIS174_OlympicGames.Models;
 using CIS174_OlympicGames.Data;
+using CIS174_OlympicGames.Services;
 
 namespace CIS174_OlympicGames.Controllers
 {
     public class TicketController : Controller
     {
 
-        private readonly TicketDbContext _context;
+        private readonly ITicketService _ticketService;
 
 
-        public TicketController(TicketDbContext context)
+        public TicketController(ITicketService ticketService)
         {
-            _context = context;
+            _ticketService = ticketService;
         }
-
-        private static List<TicketModel> tickets = new List<TicketModel>();
 
         public IActionResult Index()
         {
-            var tickets = _context.Tickets.ToList();
+            var tickets = _ticketService.GetAllTickets();
             return View(tickets);
         }
 
@@ -38,8 +37,7 @@ namespace CIS174_OlympicGames.Controllers
                 return View(ticket);
             }
 
-            _context.Tickets.Add(ticket);
-            _context.SaveChanges();
+            _ticketService.AddTicket(ticket);
             return RedirectToAction("Index");
         }
     }

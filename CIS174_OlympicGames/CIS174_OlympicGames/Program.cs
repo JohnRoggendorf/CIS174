@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using CIS174_OlympicGames.Data;
+using CIS174_OlympicGames.Services;
 
 namespace CIS174_OlympicGames
 {
@@ -12,6 +13,7 @@ namespace CIS174_OlympicGames
             // Add services to the container.
             builder.Services.AddDbContext<TicketDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ITicketService, TicketService>();
             builder.Services.AddSession();
 
             var app = builder.Build();
